@@ -69,7 +69,7 @@ function shuffleArray(array) {
 }
 
 // Remove some numbers to create the puzzle (difficulty)
-function generatePuzzle(grid, difficulty = 0.5) {
+function generatePuzzle(grid, difficulty = 0.57) {
     let puzzle = grid.map(row => row.slice());
     let cellsToRemove = Math.floor(difficulty * 81); // 81 total cells in a Sudoku grid
 
